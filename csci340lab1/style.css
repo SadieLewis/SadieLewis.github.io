@@ -1,0 +1,16 @@
+h1 {
+    font-size: 40px;
+    font-family: 'Harrington', fantasy;
+    color: rgb(0, 55, 9);
+}
+p{
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+}
+.description{
+    padding: 250px 0;
+	margin: 30px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-image: url("https://www.vecteezy.com/vector-art/10478636-green-magic-potion");
+    color: #0bd258
+}
