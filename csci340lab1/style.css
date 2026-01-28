@@ -11,6 +11,12 @@ h2 {
     margin: 20px;
 
 }
+h3 {
+    color: #470c86;
+    font-family: 'Finger Paint', sans-serif;
+    font-size: 30px;
+    margin: 20px;
+}
 p{
     font-size: 20px;
     font-family: 'Unkempt', sans-serif;
@@ -22,7 +28,7 @@ p{
     color: #0bd258
 }
 .list{
-    font-size: 30px;
+    font-size: 25px;
     font-family:'Unkempt', sans-serif;
     color: #0bd258;
     padding: 10px;
@@ -33,7 +39,7 @@ p{
 }
 .list-imgs{
     text-align: center;
-    margin: 10px;
+    margin: 40px;
 }
 .tag{
     border: 10px solid #470c86;
@@ -41,4 +47,5 @@ p{
 }
 .tag-imgs{
     padding: 10px;
+    text-align: center;
 }
