@@ -1,16 +1,43 @@
 h1 {
-    font-size: 40px;
-    font-family: 'Harrington', fantasy;
-    color: rgb(0, 55, 9);
+    font-size: 80px;
+    font-family: 'Henny Penny', sans-serif;
+    color: #470c86;
+    text-align: center;
+}
+h2 {
+    color: #470c86;
+    font-family: 'Finger Paint', sans-serif;
+    margin: 20px;
+
 }
 p{
-    font-size: 18px;
-    font-family: 'Georgia', serif;
+    font-size: 20px;
+    font-family: 'Unkempt', sans-serif;
+    color: #0bd258;
+    margin: 20px;
 }
 .description{
-    padding: 250px 0;
-	margin: 30px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background-image: url("https://www.vecteezy.com/vector-art/10478636-green-magic-potion");
+    font-family: 'Unkempt', sans-serif;
     color: #0bd258
+}
+.list{
+    font-size: 30px;
+    font-family:'Unkempt', sans-serif;
+    color: #0bd258;
+    padding: 10px;
+}
+.list-title{
+    font-size: 40px;
+    font-family:'Henny Penny', sans-serif;
+    color: #470c86
+}
+.list-imgs{
+    text-align: center;
+}
+.tag{
+    border: 10px solid #470c86;
+    text-align: center;
+}
+.tag-imgs{
+    padding: 10px;
 }
