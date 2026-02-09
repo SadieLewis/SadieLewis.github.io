@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon Fact Generator!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sixtyfour|Iceland' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container py-5">
+    <!-- Header -->
+        <header class="text-center mb-5">
+            <h1>Pokemon Fact Generator</h1>
+            <h2 class="subtitle">Get a random pokemon and random fact!</h2>
+        </header>
+    <!-- Button -->
+        <div class="text-center mb-4">
+            <button id="pokemon-button" class = "btn btn-primary btn-lg">Pokemon</button>
+            <button id="pokemon-fact" class = "btn btn-primary btn-lg">Pokemon and Fact</button>
+            <button id="fact-button" class = "btn btn-primary btn-lg">Fact</button>
+        </div>
+    <!-- Content Row -->
+        <div class="row">
+      <!-- Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card p-4 h-100">
+                    <h2 class="card-title">Pokemon:</h2>
+                    <div id="pokemonResult" class="text-center"></div>
+                    <h2 class="card-title">Random Fact:</h2>
+                    <p id="factResult"></p>
+                </div>
+            </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
