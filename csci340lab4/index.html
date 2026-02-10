@@ -6,12 +6,28 @@
     <link href='https://fonts.googleapis.com/css?family=Sixtyfour|Iceland' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body>     
     <div class="container py-5">
     <!-- Header -->
-        <header class="text-center mb-5">
-            <h1>Pokemon Fact Generator</h1>
-            <h2 class="subtitle">Get a random pokemon and random fact!</h2>
+        <header class="container">
+            <div class="row">
+                <div class="pokeballs-a">
+                    <img src="https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png" alt="greatball">
+                    <img src="https://www.pngmart.com/files/23/Masterball-PNG-Clipart.png" alt="masterball">
+                    <img src="https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png" alt="greatball">
+                    <img src="https://www.pngmart.com/files/23/Masterball-PNG-Clipart.png" alt="masterball">
+                    <img src="https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png" alt="greatball">
+                    <img src="https://www.pngmart.com/files/23/Masterball-PNG-Clipart.png" alt="masterball">
+                    <img src="https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png" alt="greatball">
+                </div>
+                <div class="row">
+                    <nav class="col-sm-8 text-right">
+                        <h3>Get a Random Pokemon</h3>
+                        <h3>Get a Random Fact</h3>
+                    </nav> 
+                </div>
+                <h1 class="col-md-16 text-center">Pokemon Fact Generator</h1>
+            </div>
         </header>
     <!-- Button -->
         <div class="text-center mb-4">
@@ -21,15 +37,25 @@
         </div>
     <!-- Content Row -->
         <div class="row">
-      <!-- Card -->
+      <!-- Cards -->
             <div class="col-md-6 mb-4">
-                <div class="card p-4 h-100">
-                    <h2 class="card-title">Pokemon:</h2>
-                    <div id="pokemonResult" class="text-center"></div>
-                    <h2 class="card-title">Random Fact:</h2>
-                    <p id="factResult"></p>
+                <div class="f-card">
+                    <h1 class="fact-cart-title">Random Fact:</h2>
+                    <h2 id="factResult"></p>
                 </div>
             </div>
+        </div>
+        <div class ="row">
+            <div id="pokemonResult" class="text-center"></div>
+        </div>
+    <div class = "pokeballs-b">
+        <img src="https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png" alt="greatball">
+        <img src="https://www.pngmart.com/files/23/Masterball-PNG-Clipart.png" alt="masterball">
+        <img src="https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png" alt="greatball">
+        <img src="https://www.pngmart.com/files/23/Masterball-PNG-Clipart.png" alt="masterball">
+        <img src="https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png" alt="greatball">
+        <img src="https://www.pngmart.com/files/23/Masterball-PNG-Clipart.png" alt="masterball">
+        <img src="https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png" alt="greatball">
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

@@ -20,10 +20,9 @@ function getPokemon() {
     success: function (results) {
         const pokemonName = results.name.charAt(0).toUpperCase() + results.name.slice(1).toLowerCase();
         $('#pokemonResult').html(`
-            <h2>${pokemonName}</h2>
             <img src="${results.sprites.front_default}" alt="${pokemonName}">
+            <h2>${pokemonName}</h2>
         `);
-
     },
     error: function (xhr, status, error) {
       console.log(error);
@@ -31,6 +30,7 @@ function getPokemon() {
     }
   });
 }
+
 function getFact() {
   $.ajax({
     dataType: "json",
@@ -44,6 +44,4 @@ function getFact() {
     }
   });
 }
-
-
 });
