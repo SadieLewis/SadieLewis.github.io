@@ -1,41 +1,29 @@
 body {
     font-family: 'Iceland', sans-serif;
     background-color: #f4f6f8;
-    color: #1e3a8a;
+    color: #00113f;
 }
-
 h1 {
     font-family: 'Sixtyfour', sans-serif;
     font-weight: 600;
-    color: #1e3a8a;
+    color: #00113f;
     text-align: center;
 }
 h2 {
     font-family: 'Iceland', sans-serif;
     font-weight: 600;
-    color: #1e3a8a;
+    color: #00113f;
     text-align: center;
 }
 h3{
     font-family: 'Iceland', sans-serif;
     font-weight: 600;
-    color: #1e3a8a;
-}
-
-.p-card {
-    position: relative;
-    border-radius: 12px;
-    border: 10px solid #000;
-    padding: 30px;
-    background: #ffe8e8;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    text-align: center;
-    margin: 20px;
+    color: #00113f;
 }
 .f-card {
     position: relative;
     border-radius: 12px;
-    border: 10px solid #000;
+    border: 10px solid #00113f;
     padding: 20px;
     background: #ff6464;
     margin: 5px;
@@ -47,25 +35,25 @@ h3{
     right: -10px;
     border-width: 35px 35px 0;
     border-style: solid;
-    border-color: #000000 transparent transparent transparent;
+    border-color: #00113f transparent transparent transparent;
 }
 #pokemon-fact{
     background-color:rgb(255, 100, 100);
-    color:#0e39ad;
-    border: 5px #000 solid;
+    color:#00113f;
+    border: 5px #00113f solid;
     margin: 10px;
 }
 #pokemon-button{
-    background-color:rgb(0, 0, 0);
+    background-color:#00113f;
     color:#ff6464;
     border: 5px #ff6464 solid;
     margin: 10px;
 
 }
 #fact-button{
-    background-color:rgb(0, 0, 0);
-    color:#5482ff;
-    border: 5px #5482ff solid;
+    background-color:#00113f;
+    color:#ff6464;
+    border: 5px #ff6464 solid;
     margin: 10px;
 }
 
